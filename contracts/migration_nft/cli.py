@@ -52,7 +52,7 @@ def add_recipients(addresses):
 
 
 def calculate_cost(filename):
-    per_box = 0.025
+    per_box = 0.0025
     per_byte = 0.0004
     addresses = json.load(open(filename))
     num_boxes = len(addresses)
